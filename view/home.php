@@ -82,3 +82,65 @@
     </div>
 </div>
 
+
+<!-- Register Modal -->
+<div class="modal fade" id="regModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Please Register</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form method="post" action="../core/controller/register.php">
+
+                    <div class="mb-3">
+                        <label class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Name"/>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">UserName</label>
+                        <input type="text" class="form-control" id="username" name="username" placeholder="Username"/>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="mail" name="mail" placeholder="Email"/>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" name="password"
+                               placeholder="Password"/>
+                    </div>
+
+                    <div class="modal-footer d-block">
+                        <!--                        <p class="float-start">Not yet account <a href="#">Sign Up</a></p>-->
+                        <button type="submit" class="btn btn-warning float-end">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-5 align-items-center justify-content-between">
+    <div class="col-4 ">
+        <h1 class="mx-5 text-center">
+            Sample ChatRoom
+        </h1>
+    </div>
+    <div class="col-8">
+        <img src="../images/1.jpg" width="70%" alt="">
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+</html>
+
